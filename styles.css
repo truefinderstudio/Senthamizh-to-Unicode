@@ -1,7 +1,8 @@
 /* Define the input font */
 @font-face {
     font-family: 'InputFont';
-    src: url('fonts/st-066.ttf') format('truetype');
+    src: url('fonts/st-066.woff2') format('woff2'),
+         url('fonts/st-066.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,11 +18,14 @@
 
 #input {
     font-family: 'InputFont', sans-serif; /* Fallback to sans-serif */
+    /* Additional styling */
 }
 
 #output {
     font-family: 'OutputFont', sans-serif; /* Fallback to sans-serif */
+    /* Additional styling */
 }
+
 
 /* Basic styling for the body to ensure the page looks neat and centered */
 body {

@@ -1,7 +1,7 @@
 /* Define the input font */
 @font-face {
       font-family: 'InputFont';
-    src: url('fonts/st-066.ttf') format('truetype');
+    src: url('fonts/st-066.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 
 #input {
      font-family: 'InputFont';
-    src: url('fonts/st-066.ttf') format('truetype');
+    src: url('fonts/st-066.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
